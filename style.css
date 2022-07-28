@@ -35,7 +35,7 @@ header{
 }
 .header-text{
   width: 50%;
-  padding: 40px; ;
+  padding-bottom: 60px;
 }
 .header-image{
   width: 50%;
@@ -249,23 +249,3 @@ span{
 
 /*mobile*/
 
-@media only screen and(max-width:688px) {
-  body{
-    background-color: brown;
-  }
-  header{
-    background-color: black;
-    width: 650px;
-    height: 300px;
-    display: flex; 
-    justify-content: center;
-    padding-left: 80px;
-    padding-top: 0px;
-    padding-bottom: 40px;
-    border-radius: 20px;
-    font-size: 20px;
-    margin-left: 60px;
-    margin-top: 25px;
-  }
-  
-}
